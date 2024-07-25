@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    flex-direction: row;
+    box-shadow: -1px -1px 1px 1px,
+                1px 1px 1px 1px;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    text-align: left;
+    margin-left: 5%;
+}
+li{
+    transition: 0.6s;
+}
+li:hover{
+    background-color: rgb(130, 196, 240);
+    color: white;
+    padding: 2% 2%;
+    border-radius: 10%;
+}
+li:active{
+    border: 2px solid rebeccapurple;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    color: black;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.project {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.25rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+#abc{
+    color: white;
+    text-decoration: none;
+}
+#image{
+    /* position: absolute; */
+    margin-left: 60%;
+    height: 50%;
+    width: 35%;
+    border-radius: 15%;
+    
+}
+#about{
+    padding: 5% 5%;
+    margin-left: 10%;
+    flex-direction: row;
+    text-align: left;
+}
+.icon{
+    text-align: center;
+    font-size: 30px;
+}
+#linkedin{
+    color: #0077B5;
+}
+#github{
+    color: #181717;
+}
+#insta{
+    color: #405DE6;
+}
+#twitter{
+    color:  #1DA1F2;
+}
+.abt h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abt p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abt span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
