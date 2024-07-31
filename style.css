@@ -95,20 +95,22 @@ form button:hover {
     color: white;
     text-decoration: none;
 }
-#image{
-    /* position: absolute; */
-    margin-left: 60%;
-    height: 50%;
-    width: 35%;
-    border-radius: 15%;
-    
-}
-#about{
+#intro{
     padding: 5% 5%;
     margin-left: 10%;
+    display: flex;
     flex-direction: row;
-    text-align: left;
 }
+#image{
+    /* position: absolute; */
+    height: 70%;
+    width: 40%;
+    margin-left: 60%;
+    margin-right: 20%;
+    border-radius: 10%;
+    
+}
+
 .icon{
     text-align: center;
     font-size: 30px;
@@ -134,3 +136,63 @@ form button:hover {
 .abt span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.head{
+    text-align: center;
+}
+#sdfkljnsf{
+    color: rgb(130, 196, 240);
+}
+.myself{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 50px;
+}
+#sjjks{
+    border-radius: 10%;
+}
+
+#dklsfn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.text p{
+    font-weight: 400px;
+}
+.text .klasd{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.text .jasdfj{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.text .cbnas{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+@media(max-width: 850px){
+    .myself{
+        display: flex;
+        flex-direction: column;
+    }
+    #sjjks{
+        margin-right: 50%;
+        width: 100%;
+        text-align: center;
+        /* display: none; */
+    }
+}
+#klfgl{
+    text-decoration: none;
+    color: black;
+}
+.tex .reyte{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
