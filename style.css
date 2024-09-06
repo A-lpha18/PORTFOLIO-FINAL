@@ -108,9 +108,37 @@ form button:hover {
     margin-left: 60%;
     margin-right: 20%;
     border-radius: 10%;
-    
+    position: relative;
 }
-
+@media(max-width:450px){
+    #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .Image{
+        text-align: center;
+        height: 250px;
+        width: 350px;
+    }
+}
+.abt{
+    animation:fade .3s forwards;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* .abt h2{
+    animation: holder 4s;
+} */
 .icon{
     text-align: center;
     font-size: 30px;
@@ -152,7 +180,6 @@ form button:hover {
 #sjjks{
     border-radius: 10%;
 }
-
 #dklsfn{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
@@ -193,6 +220,16 @@ form button:hover {
     text-decoration: none;
     color: black;
 }
-.tex .reyte{
+.text .reyte{
+    flex-wrap: wrap;
     font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.jhjh {
+    text-align: center;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
